@@ -1,0 +1,30 @@
+.item-container{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    background-color: white;
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+.item-container-header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+ul{
+    margin: 0;
+}
+.list-items{
+    width: 100%;
+    display: block;
+}
+
+@media (max-width:760px) {
+    .item-container{
+        width: 90%;
+    }
+}
